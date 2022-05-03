@@ -1,5 +1,5 @@
 html{
-    background: url("image/drumkit.jpg") bottom center;
+    background: url("image/drumkit-2.jpg");
 }
 .keys{
     display: flex;
@@ -20,7 +20,7 @@ html{
     /* background-color: black; */
     color: white;
     text-shadow: 0 0 0.5rem green;
-    /* box-shadow: 0.5rem 0.5rem; */
+    box-shadow:0 0.5 0.5 white;
 transition: all 0.07s ease;
     
 
@@ -30,6 +30,7 @@ transition: all 0.07s ease;
     font-size: 2.5em;
     text-align: center;
     margin:0%;
+    text-shadow: 0 0 0.5rem green;
 }
 .playing{
     transform: scale(1.2);
